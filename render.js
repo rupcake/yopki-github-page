@@ -52,12 +52,12 @@
   }
 
   // Build a stable, human-readable anchor id from a heading, e.g.
-  // "5. Data Deletion (AppLovin)" -> "data-deletion-applovin".
+  // "5. Data Deletion (AppLovin)" -> "data-deletion".
   function headingId(text) {
     return String(text)
       .replace(/^\d+(\.\d+)*\.\s*/, '')
       .toLowerCase()
-      .replace(/\(([^)]*)\)/g, ' $1 ')
+      .replace(/\([^)]*\)/g, '')
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-+|-+$/g, '');
   }
