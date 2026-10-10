@@ -17,31 +17,41 @@
         throw new Error('Failed to load ' + txtUrl + ' (' + response.status + ')');
       }
       const text = await response.text();
-      container.innerHTML = parseToHtml(text);
+      container.innerHTML = '';
+      container.appendChild(parseToNodes(text));
     } catch (error) {
-      container.innerHTML =
-        '<p class="text-muted">Unable to load this document. Please try again later.</p>';
+      // Fallback: show a friendly message with a link to the raw text file,
+      // so the content is still reachable even if the fetch fails.
+      const message = document.createElement('p');
+      message.className = 'text-muted';
+      message.textContent = 'Unable to load this document automatically.';
+
+      const link = document.createElement('a');
+      link.className = 'btn btn-ghost';
+      link.href = txtUrl;
+      link.textContent = 'Open the text file directly';
+
+      container.innerHTML = '';
+      container.appendChild(message);
+      container.appendChild(link);
       console.error(error);
     }
   }
 
-  // Convert the plain-text document into semantic HTML.
-  function parseToHtml(text) {
+  // Convert the plain-text document into a document fragment of semantic nodes.
+  function parseToNodes(text) {
     const lines = text.replace(/\r\n/g, '\n').split('\n');
-    const html = [];
-    let listOpen = false;
+    const fragment = document.createDocumentFragment();
+    let list = null;
 
     const closeList = () => {
-      if (listOpen) {
-        html.push('</ul>');
-        listOpen = false;
-      }
+      list = null;
     };
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim();
 
-      // Blank line: close any open list and add spacing.
+      // Blank line: close any open list.
       if (line === '') {
         closeList();
         continue;
@@ -49,11 +59,13 @@
 
       // Bullet list item.
       if (line.startsWith('- ')) {
-        if (!listOpen) {
-          html.push('<ul>');
-          listOpen = true;
+        if (!list) {
+          list = document.createElement('ul');
+          fragment.appendChild(list);
         }
-        html.push('<li>' + escapeHtml(line.slice(2)) + '</li>');
+        const item = document.createElement('li');
+        item.textContent = line.slice(2);
+        list.appendChild(item);
         continue;
       }
 
@@ -61,14 +73,19 @@
       closeList();
 
       // Title (first non-empty line).
-      if (html.length === 0) {
-        html.push('<h1>' + escapeHtml(line) + '</h1>');
+      if (fragment.childNodes.length === 0) {
+        const heading = document.createElement('h1');
+        heading.textContent = line;
+        fragment.appendChild(heading);
         continue;
       }
 
       // "Last updated" line.
       if (/^last updated:/i.test(line)) {
-        html.push('<p class="text-muted">' + escapeHtml(line) + '</p>');
+        const updated = document.createElement('p');
+        updated.className = 'text-muted';
+        updated.textContent = line;
+        fragment.appendChild(updated);
         continue;
       }
 
@@ -76,26 +93,19 @@
       if (/^\d+(\.\d+)*\.\s/.test(line)) {
         const level = (line.match(/\./g) || []).length;
         const tag = level <= 1 ? 'h2' : 'h3';
-        html.push('<' + tag + '>' + escapeHtml(line) + '</' + tag + '>');
+        const heading = document.createElement(tag);
+        heading.textContent = line;
+        fragment.appendChild(heading);
         continue;
       }
 
       // Plain paragraph.
-      html.push('<p>' + escapeHtml(line) + '</p>');
+      const paragraph = document.createElement('p');
+      paragraph.textContent = line;
+      fragment.appendChild(paragraph);
     }
 
-    closeList();
-    return html.join('\n');
-  }
-
-  // Escape HTML special characters to keep the text safe.
-  function escapeHtml(str) {
-    return str
-      .replace(/&/g, '&')
-      .replace(/</g, '<')
-      .replace(/>/g, '>')
-      .replace(/"/g, '"')
-      .replace(/'/g, ''');
+    return fragment;
   }
 
   // Expose for use by individual pages.
