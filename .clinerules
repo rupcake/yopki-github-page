@@ -1,0 +1,44 @@
+# Project Rules — Yopki GitHub Pages
+
+## Purpose
+This repository hosts a static GitHub Pages site that serves the **Privacy Policy** and **Terms of Service** for the Android game "Yopki" (Google Play).
+
+The legal text is consumed in two ways:
+1. **By humans** — via styled HTML pages on GitHub Pages.
+2. **By an external website** — which fetches the raw `.txt` files and injects the text automatically.
+
+## Source of Truth
+- [`PRIVACY_POLICY.txt`](PRIVACY_POLICY.txt) — Privacy Policy content.
+- [`TERMS_OF_SERVICE.txt`](TERMS_OF_SERVICE.txt) — Terms of Service / EULA content.
+
+These two `.txt` files are the **single source of truth**. The HTML pages do not contain the legal text themselves; they load it at runtime from the `.txt` files via [`render.js`](render.js). This means the text is never duplicated or edited in multiple places.
+
+## Architecture
+- `PRIVACY_POLICY.txt` / `TERMS_OF_SERVICE.txt` — plain-text legal content (source of truth).
+- [`index.html`](index.html) — landing page linking to both legal pages.
+- [`privacy-policy.html`](privacy-policy.html) — renders `PRIVACY_POLICY.txt`.
+- [`terms-of-service.html`](terms-of-service.html) — renders `TERMS_OF_SERVICE.txt`.
+- [`render.js`](render.js) — fetches the `.txt` files and converts plain text into semantic HTML.
+- [`styles.css`](styles.css) — rupcake design system (dark theme, orange accent, neumorphic panels).
+- `img/` — favicon and branding images (not part of the legal text).
+
+## Content Rules (for the `.txt` files)
+- Use **plain text only**. No HTML, no CSS, no JavaScript, no Markdown formatting.
+- Use only plain text with:
+  - Blank lines for paragraph separation.
+  - `-` (hyphen) for bullet lists.
+  - Numbered headings like `1.`, `1.1`, `2.` for sections.
+- Keep the structure consistent between both files (title, "Last updated" date, numbered sections, bullet lists).
+- Preserve the exact wording of legal text. Do not paraphrase or shorten legal clauses.
+- Keep URLs intact and on their own lines where they appear.
+
+## Editing Rules
+- When updating a date, change the "Last updated" line in **both** `.txt` files to keep them in sync.
+- Do not introduce formatting that would break simple text parsing (e.g., no tables, no emoji, no special Unicode beyond standard punctuation).
+- Keep line endings and indentation consistent (no trailing whitespace).
+- Do **not** edit the legal text inside the HTML files — they are generated from the `.txt` files at runtime.
+
+## Styling Rules
+- The HTML pages use the rupcake design system defined in [`styles.css`](styles.css).
+- Keep styling consistent with the rupcake website: dark background (`#1a1a1e`), orange gradient accent (`#FF8F00` → `#FF6200`), Baloo 2 display font, Nunito body font, neumorphic shadows.
+- Do not add inline styles or per-page CSS overrides; keep all styling in [`styles.css`](styles.css).

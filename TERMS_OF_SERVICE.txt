@@ -1,0 +1,76 @@
+Terms of Service / End-User License Agreement (EULA) — Yopki
+
+Last updated: 10 October 2026
+
+These Terms of Service ("Terms") govern your access to and use of the mobile game "Yopki" ("the Game"). By downloading, installing, or using the Game, you agree to be bound by these Terms. If you do not agree, do not use the Game.
+
+
+1. License Grant
+
+Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to install and use the Game on a device that you own or control, solely for your personal, non-commercial use.
+
+
+2. Restrictions
+
+You agree not to:
+
+- Copy, modify, distribute, sell, or lease any part of the Game.
+- Reverse engineer, decompile, or disassemble the Game, except as permitted by applicable law.
+- Use the Game for any unlawful purpose or in violation of any applicable law.
+- Interfere with or disrupt the Game, its servers, or its security features.
+- Use automated means (bots, scripts, or cheats) to manipulate gameplay or gain an unfair advantage.
+
+
+3. In-App Purchases
+
+The Game may offer optional in-app purchases, including virtual currency ("coins") and the removal of advertisements. All purchases are processed through the applicable app store (e.g., Google Play) and are subject to that store's terms and conditions.
+
+- Virtual items and currency have no real-world monetary value and cannot be redeemed for cash.
+- Purchases are final and non-refundable except as required by applicable law or the app store's refund policy.
+
+
+4. Advertising
+
+The Game is supported by advertising. By using the free version of the Game, you agree to receive advertisements. You may remove advertisements by purchasing the relevant in-app product where available.
+
+
+5. Intellectual Property
+
+The Game, including its code, graphics, audio, characters, and other content, is owned by us or our licensors and is protected by copyright, trademark, and other intellectual property laws. All rights not expressly granted in these Terms are reserved.
+
+
+6. User Content
+
+The Game does not currently allow users to upload or share content. If such features are added in the future, you will retain ownership of your content but grant us a license to use it in connection with the Game.
+
+
+7. Disclaimer of Warranties
+
+THE GAME IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE GAME WILL BE UNINTERRUPTED, ERROR-FREE, OR FREE OF HARMFUL COMPONENTS.
+
+
+8. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO YOUR USE OF THE GAME, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OUR TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID TO US, IF ANY, IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+
+9. Termination
+
+We may suspend or terminate your access to the Game at any time, with or without notice, for any reason, including if you violate these Terms. Upon termination, the license granted in Section 1 will automatically terminate.
+
+
+10. Governing Law
+
+These Terms are governed by and construed in accordance with the laws of the jurisdiction in which we operate, without regard to its conflict of law provisions. Any disputes shall be resolved in the competent courts of that jurisdiction.
+
+
+11. Changes to These Terms
+
+We may update these Terms from time to time. We will notify you of material changes by updating the "Last updated" date at the top of these Terms. Your continued use of the Game after any changes constitutes acceptance of the updated Terms.
+
+
+12. Contact Us
+
+If you have any questions about these Terms, please contact us at:
+
+- Email: contact@rupcake.com

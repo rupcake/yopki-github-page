@@ -1,0 +1,100 @@
+Privacy Policy — Yopki
+
+Last updated: 10 October 2026
+
+This Privacy Policy explains how the mobile game "Yopki" ("the Game", "we", "our", or "us") collects, uses, and shares information when you use the Game. By downloading, installing, or using the Game, you agree to the practices described in this Policy.
+
+
+1. Information We Collect
+
+1.1 Information You Provide
+The Game does not require you to create an account or provide personal information such as your name, email address, or phone number to play.
+
+1.2 Information Collected Automatically
+When you use the Game, certain information may be collected automatically by us or by our third-party advertising and analytics partners, including:
+
+- Device information — device model, operating system version, language, and screen resolution.
+- Advertising identifiers — the Google Advertising ID (GAID) on Android or the Identifier for Advertisers (IDFA) on iOS, used to serve and measure advertising.
+- Usage data — gameplay activity, session length, and in-game events (e.g., coins collected, levels reached).
+- Approximate location — derived from your IP address, used only for regional advertising and legal compliance (e.g., GDPR/CCPA).
+
+1.3 Information We Do NOT Collect
+We do not collect precise geolocation, contacts, photos, or other sensitive personal data. The Game is not directed to children, and we do not knowingly collect personal information from children.
+
+
+2. How We Use Information
+
+We use the collected information to:
+
+- Operate, maintain, and improve the Game.
+- Serve and personalize advertisements.
+- Process in-app purchases (e.g., removing ads, purchasing coins).
+- Comply with legal obligations (e.g., GDPR, CCPA).
+- Prevent fraud and abuse.
+
+
+3. Advertising and Third-Party Services
+
+The Game displays advertisements through third-party advertising networks. These partners may collect and process data as described in their own privacy policies.
+
+3.1 AppLovin
+The Game uses AppLovin MAX to serve advertisements. AppLovin may collect and process your advertising identifier and other device data to deliver and measure ads.
+
+- AppLovin Privacy Policy: https://www.applovin.com/privacy/
+- AppLovin Terms of Use: https://www.applovin.com/terms/
+
+3.2 Google AdMob
+The Game also uses Google AdMob to serve advertisements. AdMob may collect and process your advertising identifier and other device data.
+
+- Google Privacy Policy: https://policies.google.com/privacy
+- Google AdMob Partner Policy: https://support.google.com/admob/answer/9012903
+
+3.3 Google Play Billing
+In-app purchases (such as removing ads or purchasing coins) are processed through Google Play Billing. Payment information is handled by Google and is not stored or processed by us.
+
+- Google Payments Privacy Notice: https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&ldt=privacynotice
+
+
+4. Your Privacy Choices
+
+4.1 Consent (GDPR / EEA & UK)
+If you are located in the European Economic Area (EEA) or the United Kingdom, you will be asked to provide consent before personalized advertising is shown. You may withdraw or change your consent at any time through the consent dialog presented in the Game.
+
+4.2 California Residents (CCPA/CPRA)
+If you are a California resident, you have the right to request access to, deletion of, and information about the personal data we collect. To exercise these rights, contact us using the details in Section 7.
+
+4.3 Resetting Your Advertising Identifier (Android)
+You can reset or delete your advertising identifier (GAID) at any time directly from your Android device settings:
+
+1. Open Settings on your Android device.
+2. Go to Google → Ads (or Google → Advertising).
+3. Tap Reset advertising ID or Delete advertising ID.
+
+Resetting or deleting your advertising identifier limits the ability of advertising networks to build a profile of you across apps.
+
+
+5. Data Deletion (AppLovin)
+
+You may request the deletion of data collected by AppLovin at any time.
+
+- Email: dataprotection@applovin.com
+- AppLovin Privacy Management (Google Play): You can also manage your AppLovin privacy preferences through the AppLovin Privacy Management page available on Google Play.
+
+To request deletion, please include your advertising identifier (GAID) or other relevant identifiers so that AppLovin can locate your data.
+
+
+6. Data Retention and Security
+
+We retain collected information only for as long as necessary to fulfill the purposes described in this Policy or as required by law. We use reasonable technical and organizational measures to protect your information; however, no method of transmission or storage is completely secure.
+
+
+7. Contact Us
+
+If you have any questions about this Privacy Policy or wish to exercise your privacy rights, please contact us at:
+
+- Email: contact@rupcake.com
+
+
+8. Changes to This Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Last updated" date at the top of this Policy. Your continued use of the Game after any changes constitutes acceptance of the updated Policy.
