@@ -19,7 +19,7 @@ When you use the Game, certain information may be collected automatically by us 
 - Approximate location — derived from your IP address, used only for regional advertising and legal compliance (e.g., GDPR/CCPA).
 
 1.3 Information We Do NOT Collect
-We do not collect precise geolocation, contacts, photos, or other sensitive personal data. The Game is not directed to children, and we do not knowingly collect personal information from children.
+We do not collect precise geolocation, contacts, photos, or other sensitive personal data. The Game is intended for a general audience aged 13 and older (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13 (or the minimum age required by local law). If you are under this age, please do not use the Game or provide any personal information.
 
 
 2. How We Use Information
