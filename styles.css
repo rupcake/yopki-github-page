@@ -60,7 +60,7 @@ body {
   pointer-events: none;
   background-image: url('img/rupcake_text_orange_2048.png');
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right 22%;
   background-size: min(60vw, 720px) auto;
   opacity: 1;
 }
@@ -288,6 +288,11 @@ p {
 .prose h3 {
   font-size: 1.1rem;
   margin-top: 1.5em;
+}
+
+.prose h2,
+.prose h3 {
+  scroll-margin-top: 110px;
 }
 
 .prose p,

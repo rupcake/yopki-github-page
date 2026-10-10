@@ -19,6 +19,19 @@
       const text = await response.text();
       container.innerHTML = '';
       container.appendChild(parseToNodes(text));
+
+      // Deep-link support: if the URL has a section hash (for example
+      // privacy-policy.html#data-deletion-applovin), scroll to that section
+      // now that the fetched text is present in the DOM.
+      if (window.location.hash) {
+        requestAnimationFrame(() => {
+          const id = decodeURIComponent(window.location.hash.slice(1));
+          const target = document.getElementById(id);
+          if (target) {
+            target.scrollIntoView({ block: 'start' });
+          }
+        });
+      }
     } catch (error) {
       // Fallback: show a friendly message with a link to the raw text file,
       // so the content is still reachable even if the fetch fails.
@@ -36,6 +49,17 @@
       container.appendChild(link);
       console.error(error);
     }
+  }
+
+  // Build a stable, human-readable anchor id from a heading, e.g.
+  // "5. Data Deletion (AppLovin)" -> "data-deletion-applovin".
+  function headingId(text) {
+    return String(text)
+      .replace(/^\d+(\.\d+)*\.\s*/, '')
+      .toLowerCase()
+      .replace(/\(([^)]*)\)/g, ' $1 ')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
   }
 
   // Convert the plain-text document into a document fragment of semantic nodes.
@@ -95,6 +119,10 @@
         const tag = level <= 1 ? 'h2' : 'h3';
         const heading = document.createElement(tag);
         heading.textContent = line;
+        const id = headingId(line);
+        if (id) {
+          heading.id = id;
+        }
         fragment.appendChild(heading);
         continue;
       }
