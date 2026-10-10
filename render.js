@@ -6,6 +6,17 @@
 (function () {
   'use strict';
 
+  // Scroll to the section referenced by the URL hash, if any.
+  function scrollToHash() {
+    const hash = window.location.hash;
+    if (!hash) return;
+    const id = decodeURIComponent(hash.slice(1));
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ block: 'start' });
+    }
+  }
+
   // Fetch a .txt file and render it into the target container.
   async function renderLegalText(txtUrl, containerId) {
     const container = document.getElementById(containerId);
@@ -21,17 +32,11 @@
       container.appendChild(parseToNodes(text));
 
       // Deep-link support: if the URL has a section hash (for example
-      // privacy-policy.html#data-deletion-applovin), scroll to that section
-      // now that the fetched text is present in the DOM.
-      if (window.location.hash) {
-        requestAnimationFrame(() => {
-          const id = decodeURIComponent(window.location.hash.slice(1));
-          const target = document.getElementById(id);
-          if (target) {
-            target.scrollIntoView({ block: 'start' });
-          }
-        });
-      }
+      // privacy-policy.html#data-deletion), scroll to that section now that
+      // the fetched text is present in the DOM.
+      scrollToHash();
+      // Re-scroll after layout settles (fonts/images can shift the page).
+      setTimeout(scrollToHash, 150);
     } catch (error) {
       // Fallback: show a friendly message with a link to the raw text file,
       // so the content is still reachable even if the fetch fails.
@@ -135,6 +140,11 @@
 
     return fragment;
   }
+
+  // Re-run the hash scroll if the user changes the hash or the page finishes
+  // loading (covers cases where the content was still being fetched).
+  window.addEventListener('hashchange', scrollToHash);
+  window.addEventListener('load', scrollToHash);
 
   // Expose for use by individual pages.
   window.renderLegalText = renderLegalText;
