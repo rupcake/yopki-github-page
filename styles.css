@@ -60,7 +60,7 @@ body {
   pointer-events: none;
   background-image: url('img/rupcake_text_orange_2048.png');
   background-repeat: no-repeat;
-  background-position: right 22%;
+  background-position: right 8%;
   background-size: min(60vw, 720px) auto;
   opacity: 1;
 }
