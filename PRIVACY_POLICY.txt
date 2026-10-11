@@ -12,20 +12,18 @@ The Game does not require you to create an account or provide personal informati
 
 1.2 Information Collected Automatically
 When you use the Game, certain information may be collected automatically by us or by our third-party advertising and analytics partners, including:
-
 - Device information — device model, operating system version, language, and screen resolution.
 - Advertising identifiers — the Google Advertising ID (GAID) on Android or the Identifier for Advertisers (IDFA) on iOS, used to serve and measure advertising.
 - Usage data — gameplay activity, session length, and in-game events (e.g., coins collected, levels reached).
 - Approximate location — derived from your IP address, used only for regional advertising and legal compliance (e.g., GDPR/CCPA).
 
-1.3 Information We Do NOT Collect
-We do not collect precise geolocation, contacts, photos, or other sensitive personal data. The Game is intended for a general audience aged 13 and older (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13 (or the minimum age required by local law). If you are under this age, please do not use the Game or provide any personal information.
+1.3 Age Restrictions and Children's Privacy
+The Game is intended for a general audience aged 13 and older (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13 (or the minimum age required by local law). If you are under this age, please do not use the Game or provide any personal information. We do not collect precise geolocation, contacts, photos, or other sensitive personal data.
 
 
 2. How We Use Information
 
 We use the collected information to:
-
 - Operate, maintain, and improve the Game.
 - Serve and personalize advertisements.
 - Process in-app purchases (e.g., removing ads, purchasing coins).
@@ -33,25 +31,18 @@ We use the collected information to:
 - Prevent fraud and abuse.
 
 
-3. Advertising and Third-Party Services
+3. Advertising, Cross-Promotion, and Third-Party Services
 
-The Game displays advertisements through third-party advertising networks. These partners may collect and process data as described in their own privacy policies.
-
-3.1 AppLovin
-The Game uses AppLovin MAX to serve advertisements. AppLovin may collect and process your advertising identifier and other device data to deliver and measure ads.
-
-- AppLovin Privacy Policy: https://www.applovin.com/privacy/
-- AppLovin Terms of Use: https://www.applovin.com/terms/
-
-3.2 Google AdMob
-The Game also uses Google AdMob to serve advertisements. AdMob may collect and process your advertising identifier and other device data.
-
+3.1 Advertising Networks (Google AdMob)
+The Game displays advertisements through Google AdMob and its integrated mediation partners. AdMob may collect and process your advertising identifier and other device data to deliver and measure ads.
 - Google Privacy Policy: https://policies.google.com/privacy
 - Google AdMob Partner Policy: https://support.google.com/admob/answer/9012903
 
+3.2 Cross-Promotion
+The Game may display promotional content, banners, or recommendations for other games and applications developed or published by us. If cross-promotion is delivered through standard static or in-game graphical elements without third-party ad networks, no additional personal data or advertising identifiers are collected for this purpose. If cross-promotion is managed via third-party advertising partners, data collection is governed by the respective partner privacy policies.
+
 3.3 Google Play Billing
 In-app purchases (such as removing ads or purchasing coins) are processed through Google Play Billing. Payment information is handled by Google and is not stored or processed by us.
-
 - Google Payments Privacy Notice: https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&ldt=privacynotice
 
 
@@ -61,40 +52,27 @@ In-app purchases (such as removing ads or purchasing coins) are processed throug
 If you are located in the European Economic Area (EEA) or the United Kingdom, you will be asked to provide consent before personalized advertising is shown. You may withdraw or change your consent at any time through the consent dialog presented in the Game.
 
 4.2 California Residents (CCPA/CPRA)
-If you are a California resident, you have the right to request access to, deletion of, and information about the personal data we collect. To exercise these rights, contact us using the details in Section 7.
+If you are a California resident, you have the right to request access to, deletion of, and information about the personal data we collect. To exercise these rights, contact us using the details in Section 6.
 
 4.3 Resetting Your Advertising Identifier (Android)
 You can reset or delete your advertising identifier (GAID) at any time directly from your Android device settings:
-
 1. Open Settings on your Android device.
 2. Go to Google → Ads (or Google → Advertising).
 3. Tap Reset advertising ID or Delete advertising ID.
-
 Resetting or deleting your advertising identifier limits the ability of advertising networks to build a profile of you across apps.
 
 
-5. Data Deletion (AppLovin)
-
-You may request the deletion of data collected by AppLovin at any time.
-
-- Email: dataprotection@applovin.com
-- AppLovin Privacy Management (Google Play): You can also manage your AppLovin privacy preferences through the AppLovin Privacy Management page available on Google Play.
-
-To request deletion, please include your advertising identifier (GAID) or other relevant identifiers so that AppLovin can locate your data.
-
-
-6. Data Retention and Security
+5. Data Retention and Security
 
 We retain collected information only for as long as necessary to fulfill the purposes described in this Policy or as required by law. We use reasonable technical and organizational measures to protect your information; however, no method of transmission or storage is completely secure.
 
 
-7. Contact Us
+6. Contact Us
 
 If you have any questions about this Privacy Policy or wish to exercise your privacy rights, please contact us at:
-
 - Email: contact@rupcake.com
 
 
-8. Changes to This Policy
+7. Changes to This Policy
 
-We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Last updated" date at the top of this Policy. Your continued use of the Game after any changes constitutes acceptance of the updated Policy.
+We may update this Privacy Policy from time to time. We will notify you of material changes by updating the "Last updated" date at the top of this Policy. Your continued use of the Game after any changes constitutes acceptance of the updated Policy.

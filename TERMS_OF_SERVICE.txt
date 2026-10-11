@@ -13,7 +13,6 @@ Subject to your compliance with these Terms, we grant you a limited, non-exclusi
 2. Restrictions
 
 You agree not to:
-
 - Copy, modify, distribute, sell, or lease any part of the Game.
 - Reverse engineer, decompile, or disassemble the Game, except as permitted by applicable law.
 - Use the Game for any unlawful purpose or in violation of any applicable law.
@@ -24,14 +23,14 @@ You agree not to:
 3. In-App Purchases
 
 The Game may offer optional in-app purchases, including virtual currency ("coins") and the removal of advertisements. All purchases are processed through the applicable app store (e.g., Google Play) and are subject to that store's terms and conditions.
-
 - Virtual items and currency have no real-world monetary value and cannot be redeemed for cash.
 - Purchases are final and non-refundable except as required by applicable law or the app store's refund policy.
 
 
-4. Advertising
+4. Advertising and Cross-Promotion
 
-The Game is supported by advertising. By using the free version of the Game, you agree to receive advertisements. You may remove advertisements by purchasing the relevant in-app product where available.
+- **Advertising:** The Game is supported by advertising. By using the free version of the Game, you agree to receive advertisements. You may remove advertisements by purchasing the relevant in-app product where available.
+- **Cross-Promotion:** The Game may contain links, banners, or promotional features directing you to other games, websites, or applications developed or operated by us. These promotional materials are provided for your convenience and entertainment. Clicking on such promotional banners will redirect you to the respective app store page (e.g., Google Play). We are not responsible for the availability, content, or practices of any external applications, though we ensure our own promoted titles comply with standard platform guidelines.
 
 
 5. Intellectual Property
@@ -43,11 +42,12 @@ The Game, including its code, graphics, audio, characters, and other content, is
 
 The Game does not currently allow users to upload or share content. If such features are added in the future, you will retain ownership of your content but grant us a license to use it in connection with the Game.
 
+
 7. Health and Content Warnings
 
-Photosensitivity Warning: The Game contains flashing lights, rapid color changes, and visual effects that may trigger epileptic seizures or other adverse reactions in photosensitive individuals. Players should discontinue use immediately if they experience dizziness, altered vision, eye or muscle twitches, or loss of awareness.
+- **Photosensitivity Warning:** The Game contains flashing lights, rapid color changes, and visual effects that may trigger epileptic seizures or other adverse reactions in photosensitive individuals. Players should discontinue use immediately if they experience dizziness, altered vision, eye or muscle twitches, or loss of awareness.
+- **Content Advisory:** The Game features suspenseful themes, scary monsters, jump scares, and intense audio effects. The Game is suitable for players aged 13 and older. If you are under 18 years of age (or the age of majority in your jurisdiction), you represent that your parent or legal guardian has reviewed and agreed to these Terms on your behalf.
 
-Content Advisory: The Game features suspenseful themes, scary monsters, jump scares, and intense audio effects. Parents or legal guardians are advised to review the game content to ensure it is appropriate for players under 18.
 
 8. Disclaimer of Warranties
 
@@ -77,5 +77,4 @@ We may update these Terms from time to time. We will notify you of material chan
 13. Contact Us
 
 If you have any questions about these Terms, please contact us at:
-
 - Email: contact@rupcake.com
