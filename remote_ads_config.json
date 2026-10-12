@@ -1,0 +1,47 @@
+{
+	"version": 1,
+	"refresh_interval_seconds": 21600,
+	"retry_interval_seconds": 60,
+	"android": {
+		"banner": {
+			"standard": "ca-app-pub-3940256099942544/6300978111"
+		},
+		"interstitial": {
+			"standard": "ca-app-pub-3940256099942544/1033173712"
+		},
+		"rewarded": {
+			"standard": "ca-app-pub-3940256099942544/5224354917"
+		},
+		"rewarded_interstitial": {
+			"standard": "ca-app-pub-3940256099942544/5354046379"
+		}
+	},
+	"ios": {
+		"banner": {
+			"standard": "ca-app-pub-3940256099942544/2934735716"
+		},
+		"interstitial": {
+			"standard": "ca-app-pub-3940256099942544/4411468910"
+		},
+		"rewarded": {
+			"standard": "ca-app-pub-3940256099942544/1712485313"
+		},
+		"rewarded_interstitial": {
+			"standard": "ca-app-pub-3940256099942544/6978759866"
+		}
+	},
+	"fallback": {
+		"banner": {
+			"standard": "ca-app-pub-3940256099942544/6300978111"
+		},
+		"interstitial": {
+			"standard": "ca-app-pub-3940256099942544/1033173712"
+		},
+		"rewarded": {
+			"standard": "ca-app-pub-3940256099942544/5224354917"
+		},
+		"rewarded_interstitial": {
+			"standard": "ca-app-pub-3940256099942544/5354046379"
+		}
+	}
+}
