@@ -23,7 +23,14 @@
     if (!container) return;
 
     try {
-      const response = await fetch(txtUrl);
+      // Append a cache-busting query string so browsers and intermediate
+      // caches always fetch the latest version of the legal text. GitHub
+      // Pages serves these files with `Cache-Control: max-age=600`, which
+      // would otherwise delay updates by up to 10 minutes (or longer if a
+      // browser or the consuming site caches the response).
+      const cacheBustedUrl =
+        txtUrl + (txtUrl.indexOf('?') === -1 ? '?' : '&') + 'v=' + Date.now();
+      const response = await fetch(cacheBustedUrl);
       if (!response.ok) {
         throw new Error('Failed to load ' + txtUrl + ' (' + response.status + ')');
       }
