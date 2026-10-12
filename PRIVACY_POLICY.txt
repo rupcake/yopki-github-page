@@ -44,7 +44,7 @@ We use Google Firebase services to analyze how players interact with the Game an
 - Google Privacy Policy: https://policies.google.com/privacy
 
 3.3 Cross-Promotion
-The Game may display promotional content, banners, or recommendations for other games and applications developed or published by us. If cross-promotion is delivered through standard static or in-game graphical elements without third-party ad networks, no additional personal data or advertising identifiers are collected for this purpose.
+The Game may display promotional content, banners, or recommendations for other games and applications developed or published by us. All internal promotional materials and cross-promotion content strictly comply with the age ratings and target audience guidelines of the Game in which they are displayed. If cross-promotion is delivered through standard static or in-game graphical elements without third-party ad networks, no additional personal data or advertising identifiers are collected for this purpose.
 
 3.4 Google Play Billing
 In-app purchases (such as removing ads or purchasing coins) are processed through Google Play Billing. Payment information is handled by Google and is not stored or processed by us.
